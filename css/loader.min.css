@@ -1,0 +1,78 @@
+.cssload-loader{
+	position: relative;
+	width: 206px;
+	height: 28px;
+	left: 25%;
+	/* background-color: rgb(17, 17, 17);
+	border-radius: 50%; */
+	left: calc(50% - 103px);
+		left: -o-calc(50% - 103px);
+		left: -ms-calc(50% - 103px);
+		left: -webkit-calc(50% - 103px);
+		left: -moz-calc(50% - 103px);
+}
+
+
+.cssload-loader:before{
+	content: "⚡";
+	position: absolute;
+	/* background-color: rgb(0,0,0); */
+	top: -110px;
+	left: 0px;
+	color:#055ca4;
+	height: 41px;
+	width: 100%;
+	z-index: 0;
+	opacity: 1;
+	font-size: 105px;
+	transform-origin:	100% 0%;
+		-o-transform-origin:	100% 0%;
+		-ms-transform-origin:	100% 0%;
+		-webkit-transform-origin:	100% 0%;
+		-moz-transform-origin:	100% 0%;
+	animation: cssload-loader 2.5s ease-in-out infinite;
+		-o-animation: cssload-loader 2.5s ease-in-out infinite;
+		-ms-animation: cssload-loader 1.5s ease-in-out infinite;
+		-webkit-animation: cssload-loader 1.5s ease-in-out infinite;
+		-moz-animation: cssload-loader 1.5s ease-in-out infinite;
+}
+
+
+
+
+
+
+@keyframes cssload-loader{
+		0%{width: 0px;}
+		70%{width: 100%; opacity: 1;}
+		90%{opacity: 0; width: 100%;}
+		100%{opacity: 0;width: 0px;}
+}
+
+@-o-keyframes cssload-loader{
+		0%{width: 0px;}
+		70%{width: 100%; opacity: 1;}
+		90%{opacity: 0; width: 100%;}
+		100%{opacity: 0;width: 0px;}
+}
+
+@-ms-keyframes cssload-loader{
+		0%{width: 0px;}
+		70%{width: 100%; opacity: 1;}
+		90%{opacity: 0; width: 100%;}
+		100%{opacity: 0;width: 0px;}
+}
+
+@-webkit-keyframes cssload-loader{
+		0%{width: 0px;}
+		70%{width: 100%; opacity: 1;}
+		90%{opacity: 0; width: 100%;}
+		100%{opacity: 0;width: 0px;}
+}
+
+@-moz-keyframes cssload-loader{
+		0%{width: 0px;}
+		70%{width: 100%; opacity: 1;}
+		90%{opacity: 0; width: 100%;}
+		100%{opacity: 0;width: 0px;}
+}
