@@ -1514,6 +1514,19 @@
 <script src="js/jquery-ui.js"></script>
 <script  src="js/switcher.js"></script><!-- SHORTCODE FUCTIONS  -->
 
+<script>
+    var url = "https://wa.me/917373523636?text=Hi!%20I%20need%20help";
+    var whatsappButton = document.createElement("a");
+    whatsappButton.href = url;
+    whatsappButton.target = "_blank";
+    whatsappButton.innerHTML = '<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="50">';
+    whatsappButton.style.position = "fixed";
+    whatsappButton.style.bottom = "60px";
+    whatsappButton.style.right = "5px";
+    whatsappButton.style.zIndex = "1000";
+    document.body.appendChild(whatsappButton);
+  </script>
+
 
 
 <!-- STYLE SWITCHER  ======= --> 
